@@ -34,7 +34,7 @@ function createWindow () {
     mainWindow = null
   })
 
-  const icon = path.resolve(__dirname, 'assets', 'caster1.png')
+  const icon = path.resolve(__dirname, 'assets', 'icon.png')
   tray = new Tray(icon)
   const contextMenu = Menu.buildFromTemplate([
     {label: 'Item1', type: 'radio'},
